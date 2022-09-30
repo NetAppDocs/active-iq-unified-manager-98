@@ -1,0 +1,52 @@
+---
+permalink: online-help/reference_backup_settings_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'Define the backup schedule, the retention count, and when using MySQL database dump backup method, the backup path for a selected Unified Manager instance.'
+---
+= Backup Settings dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Define the backup schedule, the retention count, and when using MySQL database dump backup method, the backup path for a selected Unified Manager instance.
+
+You can change the following database backup settings:
+
+* *Path*
++
+When you are using the MySQL database dump backup method, this field specifies the path to the location where you store the backup files. When using the Snapshot backup method, this location shows the cluster, storage VM, and volume on which the backup will be stored.
++
+The following table specifies the backup path format, and default locations, for different operating systems:
++
+|===
+| Host operating system| Backup path format
+a|
+Virtual appliance
+a|
+`/opt/netapp/data/ocum-backup`
+a|
+Red Hat Enterprise Linux or CentOS Linux
+a|
+`/data/ocum-backup`
+a|
+Microsoft Windows
+a|
+`C:\ProgramData\NetApp\OnCommandAppData\ocum\backup\`
+|===
+
+* *Retention Count*
++
+Specifies the maximum number of backups to be retained by Unified Manager. The default value is 10.
+
+* *Scheduled Daily*
++
+Specifies the daily backup schedule with the time.
+
+* *Scheduled Weekly*
++
+Specifies the weekly backup schedule with the day and time.
+
+* *None*
++
+Specifies that no backups will be created.
