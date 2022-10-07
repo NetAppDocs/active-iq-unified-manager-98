@@ -1,0 +1,22 @@
+---
+permalink: health-checker/task-send-a-support-bundle-to-technical-support.html
+sidebar: sidebar
+keywords: 
+summary: 'This workflow shows you how to generate, retrieve, and send a support bundle to technical support using the Unified Manager maintenance console. You should send a support bundle when the issue that you have requires more detailed diagnosis and troubleshooting than an AutoSupport message provides.'
+---
+= Sending a Unified Manager support bundle to technical support
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This workflow shows you how to generate, retrieve, and send a support bundle to technical support using the Unified Manager maintenance console. You should send a support bundle when the issue that you have requires more detailed diagnosis and troubleshooting than an AutoSupport message provides.
+
+== About this task
+
+Unified Manager stores a maximum of two generated support bundles at one time.
+
+For more information about the maintenance console, see the http://docs.netapp.com/ocum-98/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide].
+
+*Related information*
+
+xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]
