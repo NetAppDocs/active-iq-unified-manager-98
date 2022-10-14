@@ -2,10 +2,10 @@
 settings:
   name: Active IQ Unified Manager 9.8
   internal:
-    pdf_enabled: false
+    pdf_enabled: true
     lipi_enabled: true
   prod:
-    pdf_enabled: false
+    pdf_enabled: true
   versions:
     - name: Unified Manager
       url: /active-iq-unified-manager-98
