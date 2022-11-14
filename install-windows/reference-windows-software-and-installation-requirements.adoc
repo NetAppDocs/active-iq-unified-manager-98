@@ -21,7 +21,7 @@ Unified Manager runs only on a 64-bit English language Windows operating system.
 
 Note that Windows Server 2012 is not supported as it was in earlier releases. See the Interoperability Matrix for the complete and most current list of supported Windows versions.
 
-http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
+http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix^]
 
 The server should be dedicated to running Unified Manager. No other applications should be installed on the server.
 
