@@ -17,6 +17,7 @@ In typical installations you do not have to specify port numbers when connecting
 
 The Unified Manager server uses specific protocols to access the following interfaces:
 
+[options="header"]
 |===
 | Interface| Protocol| Port| Description
 a|
@@ -74,7 +75,7 @@ Used to access realtime REST API-based EMS events from authenticated ONTAP syste
 The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see the _Active IQ Unified Manager System Configuration Guide_.
 ====
 
-http://docs.netapp.com/ocum-98/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide]
+http://docs.netapp.com/ocum-98/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide^]
 
 == Connections from the Unified Manager server
 
@@ -84,6 +85,7 @@ Depending on your environment, you can choose to modify the ports and protocols 
 
 The Unified Manager server connects using the following protocols and ports to the managed storage systems, servers, and other components:
 
+[options="header"]
 |===
 | Destination| Protocol| Port| Description
 a|

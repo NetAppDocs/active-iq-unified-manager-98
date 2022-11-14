@@ -32,6 +32,7 @@ The Red Hat Enterprise Linux or CentOS system might have all the required versio
 . Log in to the server on which you are installing Unified Manager.
 . Enter the appropriate commands to assess what software might require installation or upgrade on the target system to support installation:
 +
+[options="header"]
 |===
 | Required software and minimum version| Command to verify software and version
 a|
@@ -115,8 +116,4 @@ Log in to Unified Manager in a web browser by using following details:
 
 == After you finish
 
-Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the http://docs.netapp.com/ocum-98/topic/com.netapp.doc.onc-um-sysconfig/home.html[Active IQ Unified Manager System Configuration Guide].
-
-*Related information*
-
-xref:task-creating-a-custom-user-home-directory-and-umadmin-user-prior-to-installation.adoc[Creating a custom user home directory and umadmin password prior to installation]
+Access the web UI to change the default password of the umadmin user, and perform the initial setup of Unified Manager, as described in the xref:concept-configuring-unified-manager.adoc[Configuring Active IQ Unified Manager].
