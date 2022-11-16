@@ -25,14 +25,3 @@ In this example, the latency for a volume has a latency forecast, in gray, of 3.
 
 When network traffic has decreased, or the cluster component is no longer in contention, the latency returns within the latency forecast. If the latency remains at or above 10 ms/op for a long period of time, you might need to take corrective action to resolve the event.
 
-*Related information*
-
-xref:task-using-the-workload-analyzer.adoc[Using the workload analyzer]
-
-xref:concept-what-the-expected-range-of-performance-is.adoc[What the expected range of performance is]
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:concept-collecting-data-and-monitoring-workload-performance.adoc[Collecting data and monitoring workload performance]
-
-xref:reference-workload-performance-measurement-values.adoc[Workload performance measurement values]

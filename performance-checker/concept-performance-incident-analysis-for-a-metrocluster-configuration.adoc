@@ -15,12 +15,3 @@ MetroCluster performance events might be due to _bully_ workloads that are over-
 
 Performance events from both clusters in the MetroCluster configuration are also displayed on the Unified ManagerDashboard page. You can also view the Health pages of Unified Manager to check the health of each cluster and to view their relationship.
 
-*Related information*
-
-xref:concept-performance-monitoring-of-metrocluster-configurations.adoc[Performance monitoring of MetroCluster configurations]
-
-xref:task-analyzing-a-performance-incident-on-a-cluster-in-a-metrocluster-configuration.adoc[Analyzing a dynamic performance event on a cluster in a MetroCluster configuration]
-
-xref:reference-performance-event-analysis-and-notification.adoc[Performance event analysis and notification]
-
-xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]
