@@ -25,14 +25,12 @@ sidebar:
       url: "/index.html"
     - title: Release notes
       url: "/release-notes.html"
-    - title: Get started
-      entries:
-        - title: Quick start install for VMware vSphere
-          url: /install-vapp/qsg-vapp.html
-        - title: Quick start install for Linux
-          url: /install-linux/qsg-linux.html
-        - title: Quick start install for Windows
-          url: /install-windows/qsg-windows.html  
+    - title: Quick start install for VMware vSphere
+      url: "/qsg-vapp.html"
+    - title: Quick start install for Linux
+      url: "/qsg-linux.html"
+    - title: Quick start install for Windows
+      url: "/qsg-windows.html" 
     - section: install-vapp
     - section: install-linux
     - section: install-windows
@@ -52,11 +50,29 @@ homepage:
         - title: Release notes
           url: /release-notes.html
         - title: Quick start install for VMware vSphere
-          url: /install-vapp/qsg-vapp.html
+          url: qsg-vapp.html
         - title: Quick start install for Linux
-          url: /install-linux/qsg-linux.html
+          url: qsg-linux.html
         - title: Quick start install for Windows
-          url: /install-windows/qsg-windows.html  
+          url: qsg-windows.html 
+    - title: Install & configure Unified Manager
+      links:
+        - title: Install & upgrade on VMware vSphere systems
+          url: install-vapp/concept-requirements-for-installing-unified-manager.html
+        - title: Install & upgrade on Linux systems
+          url: install-linux/concept-requirements-for-installing-unified-manager.html
+        - title: Install & upgrade on Windows systems
+          url: install-windows/concept-requirements-for-installing-unified-manager.html
+        - title: Configure Unified Manager
+          url: config/concept-configuring-unified-manager.html
+    - title: Performance monitoring
+      links:
+        - title: Performance thresholds
+          url: performance-checker/concept-managing-performance-thresholds.html
+        - title: Cluster performance
+          url: performance-checker/concept-monitoring-cluster-performance-from-the-dashboard.html
+        - title: QoS policy group
+          url: performance-checker/concept-managing-performance-using-qos-policy-group-information.html      
     - title: More resources
       links:
         - title: Unified Manager videos
