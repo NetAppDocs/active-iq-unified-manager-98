@@ -32,8 +32,10 @@ image::../media/view-save.gif[]
 . You can use the advanced features of Microsoft® Excel to customize your report. For details, see xref:task-using-excel-to-customize-your-report.adoc[Using Excel to customize your report].
 . To see the output before you schedule or share it:
 +
+[options="header"]
 |===
-    a|
+a|Option| Description
+a|
 *If you used Excel to customize the report*
 a|
 View the existing downloaded Excel file.
