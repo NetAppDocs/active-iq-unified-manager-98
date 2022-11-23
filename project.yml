@@ -73,26 +73,14 @@ homepage:
           url: performance-checker/concept-monitoring-cluster-performance-from-the-dashboard.html
         - title: QoS policy group
           url: performance-checker/concept-managing-performance-using-qos-policy-group-information.html  
-    - title: Storage and object health monitoring
-      links:
-        - title: Workloads
-          url: /storage-mgmt/concept-provision-and-manage-workloads.html
-        - title: Virtual infrastructure
-          url: /storage-mgmt/concept-monitor-vmware-virtual-infrastructure.html
-        - title: MetroCluster configurations
-          url: /storage-mgmt/concept-manage-and-monitor-metrocluster-configurations.html
-        - title: Clusters and cluster object health
-          url: /health-checker/concept-manage-and-monitor-clusters-and-cluster-object-health.html
-        - title: Health thresholds
-          url: /health-checker/concept-manage-health-thresholds.html   
     - title: Data protection monitoring
       links:
         - title: Set up protection relationship
-          url: /data-protection/task-set-up-protection-relationships-in-unified-manager.html
+          url: /data-protection/task-setting-up-protection-relationships-in-unified-manager.html
         - title: Perform failover and failback
-          url: /data-protection/task-perform-protection-relationship-failover-and-failback.html
+          url: /data-protection/task-performing-protection-relationship-failover-and-failback.html
         - title: Manage protection relationship
-          url: /data-protection/concept-manage-and-monitor-protection-relationships.html
+          url: /data-protection/concept-managing-and-monitoring-protection-relationships.html
         - title: Generate reports
           url: /reporting/concept-unified-manager-reporting.html
     - title: Use REST APIs
@@ -100,19 +88,9 @@ homepage:
         - title: Get started
           url: /api-automation/concept-api-url-and-categories.html
         - title: Access Unified Manager APIs
-          url: /api-automation/concept-rest-api-access-and-authentication-in-um-apis.html
+          url: /api-automation/concept-rest-api-accessing-and-authentication-in-um-apis.html
         - title: Access ONTAP APIs
-          url: /api-automation/concept-gateway-apis.html
-    - title: Events and alerts
-      links:
-        - title: Dashboard
-          url: /storage-mgmt/reference-dashboard-page.html
-        - title: Event workflow
-          url: /events/concept-what-happens-when-an-event-is-received.html
-        - title: Active IQ platform events
-          url: /events/concept-how-active-iq-platform-events-are-generated.html
-        - title: Events and severity types
-          url: /events/reference-list-of-events-and-severity-types.html                
+          url: /api-automation/concept-gateway-apis.html             
     - title: More resources
       links:
         - title: Unified Manager videos
