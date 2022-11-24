@@ -15,10 +15,9 @@ Cluster events provide information about the status of clusters, which enables y
 
 An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Cluster Lacks Spare Disks(ocumEvtDisksNoSpares)
 
@@ -122,10 +121,9 @@ Warning
 
 == Impact area: capacity
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Cluster Capacity Imbalance Threshold Breached(ocumConformanceNodeImbalanceWarning)
 
@@ -166,10 +164,9 @@ Error
 
 == Impact area: configuration
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Node Added(Not applicable)
 
@@ -290,6 +287,7 @@ Warning
 |===
 ONTAP EMS events are categorized into three Unified Manager event severity levels.
 
+[options="header"]
 |===
 | Unified Manager event severity level| ONTAP EMS event severity level
 a|
@@ -320,10 +318,9 @@ Informational
 
 == Impact area: performance
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Cluster Load Imbalance Threshold Breached()
 
@@ -382,10 +379,9 @@ Warning
 
 == Impact area: security
 
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 AutoSupport HTTPS Transport Disabled(ocumClusterASUPHttpsConfiguredDisabled)
 

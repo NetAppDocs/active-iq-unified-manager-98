@@ -26,6 +26,7 @@ When you enable this feature, Unified Manager starts receiving Active IQ platfor
 . In the left navigation pane, click *General* > *Feature Settings*.
 . In the *Feature Settings* page, disable or enable Active IQ platform events by choosing one of the following options:
 +
+[options="header"]
 |===
 | If you want to...| Then do this...
 a|
