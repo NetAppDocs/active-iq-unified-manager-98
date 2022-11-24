@@ -21,9 +21,7 @@ Before running the workflow steps, ensure the following:
 +
 xref:concept-gateway-apis.adoc[Accessing ONTAP APIs through proxy access]
 
-* You are aware of the usage of ONTAP REST APIs. For information about using ONTAP REST APIs, see the _ONTAP REST API Developers guide_.
-+
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-rest-api/home.html[ONTAP REST API Developers guide]
+* You are aware of the usage of ONTAP REST APIs. For information about using ONTAP REST APIs, see https://docs.netapp.com/us-en/ontap-automation/index.html[ONTAP Automation documentation].
 
 * You are an Application Administrator.
 * The cluster on which you want to run the REST API operations is supported by ONTAP 9.5 or later, and the cluster is added to Unified Manager over HTTPS.
@@ -39,6 +37,7 @@ The workflow covers the invocation points of both the Unified Manager and ONTAP 
 . Note the volume name from the event notifying the volume capacity utilization.
 . By using the volume name as the value in the `name` parameter, query the volume by running the following Unified Manager API.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -46,8 +45,8 @@ datacenter
 a|
 GET
 a|
-    `/datacenter/storage/volumes`
-+
+`/datacenter/storage/volumes`
+
 |===
 
 . Retrieve the cluster UUID and volume UUID from the output.
@@ -56,19 +55,20 @@ a|
 +
 For running the ONTAP APIs through API gateway, the Unified Manager credentials are passed internally for authentication, and you do not need to run an additional authentication step for individual cluster access.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
-    Unified Manager: gateway
-+
+Unified Manager: gateway
+
 ONTAP: storage
 a|
 GET
 a|
-    Gateway API: `+/gateways/{uuid}/{path}+`
-+
+Gateway API: `+/gateways/{uuid}/{path}+`
+
 ONTAP API: `+/storage/volumes/{uuid}+`
-+
+
 |===
 +
 [NOTE]
@@ -90,19 +90,20 @@ curl -X GET "https://<hostname>/api/gateways/1cd8a442-86d1-11e0-ae1c-98765678901
 . From the output, determine the size, usage, and remedial measure to be taken. In this workflow, the remedial measure taken is resizing the volume.
 . Use the cluster UUID and run the following ONTAP API through the API gateway to resize the volume. For information about the input parameters for the gateway and ONTAP APIs, see step 5.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
-    Unified Manager: gateway
-+
+Unified Manager: gateway
+
 ONTAP: storage
 a|
 PATCH
 a|
-    Gateway API: `+/gateways/{uuid}/{path}+`
-+
+Gateway API: `+/gateways/{uuid}/{path}+`
+
 ONTAP API: `+/storage/volumes/{uuid}+`
-+
+
 |===
 +
 [NOTE]
@@ -122,36 +123,38 @@ The JSON output returns a Job UUID.
 
 . Verify whether the job ran successfully by using the Job UUID. Use the cluster UUID and Job UUID to run the following ONTAP API through the API gateway. For information about the input parameters for the gateway and ONTAP APIs, see step 5.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
-    Unified Manager: gateway
-+
+Unified Manager: gateway
+
 ONTAP: cluster
 a|
 GET
 a|
-    Gateway API: `+/gateways/{uuid}/{path}+`
-+
+Gateway API: `+/gateways/{uuid}/{path}+`
+
 ONTAP API: `+/cluster/jobs/{uuid}+`
-+
+
 |===
 The HTTP codes returned are the same as the ONTAP REST API HTTP status codes.
 
 . Run the following ONTAP API to query the details of the resized volume. For information about the input parameters for the gateway and ONTAP APIs, see step 5.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
-    Unified Manager: gateway
-+
+Unified Manager: gateway
+
 ONTAP: storage
 a|
 GET
 a|
-    Gateway API: `+/gateways/{uuid}/{path}+`
-+
+Gateway API: `+/gateways/{uuid}/{path}+`
+
 ONTAP API: `+/storage/volumes/{uuid}+`
-+
+
 |===
 The output displays an increased volume size of 120 GB.

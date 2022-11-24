@@ -24,6 +24,7 @@ This is applicable for an NFS file share that you created by adding only export 
 
 . On the NFS file share, perform a `PATCH` operation with the ACL details for allowing CIFS access.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -57,6 +58,7 @@ The operation returns the Job ID of the Job that runs the update.
 
 . Verify whether the parameters have been added correctly by querying the file share details for the same file share.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
