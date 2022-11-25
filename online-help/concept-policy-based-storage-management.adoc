@@ -27,6 +27,3 @@ After activating this feature, you can run the Unified Manager REST APIs to perf
 
 For more information about the APIs, see link:../api-automation/concept-getting-started-with-getting-started-with-um-apis.html[Getting started with Active IQ Unified Manager REST APIs]
 
-*Related information*
-
-xref:concept-provisioning-and-managing-workloads.adoc[Provisioning and managing workloads]
