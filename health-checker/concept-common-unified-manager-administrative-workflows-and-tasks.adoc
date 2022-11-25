@@ -40,7 +40,7 @@ After creating and configuring protection relationships, storage administrators 
 +
 By associating storage objects with annotations, storage administrators can filter and view the events that are related to the storage objects, which enables storage administrators to prioritize and resolve the issues that are associated with the events.
 
-* Using REST APIs to help manage your clusters by viewing the health, capacity, and performance information captured by Unified Manager. See the See link:../api-automation/concept-getting-strated-with-getting-started-with-um-apis.html[Getting started with Active IQ Unified Manager REST APIs] for more information.
+* Using REST APIs to help manage your clusters by viewing the health, capacity, and performance information captured by Unified Manager. See the See link:../api-automation/concept-getting-started-with-getting-started-with-um-apis.html[Getting started with Active IQ Unified Manager REST APIs] for more information.
 * Sending a support bundle to technical support
 +
 Storage administrators can retrieve and send a support bundle to technical support by using the maintenance console. Support bundles must be sent to technical support when the issue requires more detailed diagnosis and troubleshooting than what an AutoSupport message provides.
