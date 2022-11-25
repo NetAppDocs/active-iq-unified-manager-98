@@ -23,6 +23,7 @@ You can verify that your script is executed correctly when an alert is generated
 . In the left navigation pane, click *Storage Management* > *Alert Setup*.
 . In the *Alert Setup* page, perform one of the following actions:
 +
+[options="header"]
 |===
 | To...| Do this...
 a|

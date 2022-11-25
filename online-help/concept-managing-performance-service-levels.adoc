@@ -21,6 +21,7 @@ You cannot modify a PSL that is system-defined or that is currently assigned to 
 
 The Performance Service Levels page lists the available PSL policies and enables you to add, edit, and delete them. This page displays the following information:
 
+[options="header"]
 |===
 | Field| Description
 a|

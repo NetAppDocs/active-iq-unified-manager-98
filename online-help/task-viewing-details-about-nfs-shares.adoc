@@ -21,6 +21,7 @@ You can view details about all NFS shares, such as its status, the path associat
 
 . In the left navigation pane, follow the steps below depending on whether you want to view all NFS shares or just the NFS shares for a particular SVM.
 +
+[options="header"]
 |===
 | To...| Follow these steps...
 a|

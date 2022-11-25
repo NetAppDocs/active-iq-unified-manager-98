@@ -24,6 +24,7 @@ By default, alerts are not sent for events as they move into the Resolved and Ob
 . In the left navigation pane, click *Storage Management* > *Alert Setup*.
 . In the *Alert Setup* page, perform one of the following actions using the slider control next to the item *Alerts for Resolved and Obsolete events*:
 +
+[options="header"]
 |===
 | To...| Do this...
 a|
