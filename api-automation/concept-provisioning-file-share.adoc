@@ -216,12 +216,12 @@ While provisioning the NFS share, you can either create an export policy by prov
 
 +
 After configuring access control list and export policy, provide the valid values for the mandatory input parameters for both CIFS and NFS file shares:
-+
+
 [NOTE]
 ====
 Storage Efficiency Policy is an optional parameter for creating file shares.
 ====
-+
+
 [options="header"]
 |===
 | Category| HTTP verb| Path
