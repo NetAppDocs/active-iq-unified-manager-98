@@ -25,8 +25,3 @@ You can view the list of Snapshot copies for a selected volume. You can use the 
 +
 The number of Snapshot copies is a link that displays the list of Snapshot copies.
 
-*Related information*
-
-xref:reference-health-all-volumes-view.adoc[Health: All Volumes view]
-
-xref:reference-health-volume-details-page.adoc[Volume / Health details page]

@@ -32,8 +32,3 @@ The default value of 1000 Snapshot copies is applicable only to FlexVol volumes 
 . Configure the appropriate threshold values for capacity, Snapshot copies, qtree quotas, volume growth, and inodes.
 . Click *Save*.
 
-*Related information*
-
-xref:task-editing-individual-volume-health-threshold-settings.adoc[Editing individual volume health threshold settings]
-
-xref:task-adding-users.adoc[Adding users]

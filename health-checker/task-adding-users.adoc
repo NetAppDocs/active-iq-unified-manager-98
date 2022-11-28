@@ -33,12 +33,3 @@ When entering the required user information, you must specify an email address t
 
 . Click *Add*.
 
-*Related information*
-
-xref:task-enabling-saml-authentication-um.adoc[Enabling SAML authentication]
-
-xref:reference-definitions-of-user-types.adoc[Definitions of user types]
-
-xref:reference-definitions-of-user-roles.adoc[Definitions of user roles]
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

@@ -29,6 +29,4 @@ The value that you specify must be unique for the selected annotation.
 
 . Click *Add*.
 
-*Related information*
 
-xref:task-adding-annotations-dynamically.adoc[Adding annotations dynamically]
