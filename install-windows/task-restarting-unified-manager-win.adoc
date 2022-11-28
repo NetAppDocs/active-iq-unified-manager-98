@@ -42,6 +42,7 @@ a|
 
 . Start the Unified Manager services:
 +
+[options="header"]
 |===
 | From the...| Start the services in following order...
 a|
