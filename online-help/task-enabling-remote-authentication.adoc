@@ -68,8 +68,4 @@ If you select the Use Secure Connection option for the authentication server, th
 . Add authentication servers, and test the authentication.
 . Click *Save*.
 
-*Related information*
 
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-enabling-saml-authentication-um.adoc[Enabling SAML authentication]

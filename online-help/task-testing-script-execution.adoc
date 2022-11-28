@@ -48,8 +48,4 @@ a|
 +
 The script is executed with the "`-test`" argument, and a notification alert is sent to the email addresses that were specified when the alert was created.
 
-*Related information*
 
-xref:task-adding-scripts.adoc[Adding scripts]
-
-xref:task-editing-alerts.adoc[Editing alerts]

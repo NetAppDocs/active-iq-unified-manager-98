@@ -32,6 +32,3 @@ The Edit Resource Pool window is displayed.
 +
 The new name and description are displayed in the resource pool list.
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

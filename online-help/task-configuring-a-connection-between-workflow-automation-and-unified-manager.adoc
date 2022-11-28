@@ -46,8 +46,5 @@ The Workflow Automation page displays.
 
 *Related information*
 
-xref:task-adding-users.adoc[Adding users]
-
 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
 
-xref:reference-setup-workflow-automation-page.adoc[Workflow Automation page]

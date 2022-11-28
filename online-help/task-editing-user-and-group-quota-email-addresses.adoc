@@ -50,6 +50,4 @@ a|
 +
 |===
 
-*Related information*
 
-xref:task-creating-rules-to-generate-email-addresses.adoc[Creating rules to generate email addresses]

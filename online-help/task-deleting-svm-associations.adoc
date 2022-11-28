@@ -34,6 +34,3 @@ A warning dialog box is displayed.
 +
 The selected SVM association is removed from the list.
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

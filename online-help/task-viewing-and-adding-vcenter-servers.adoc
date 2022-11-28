@@ -70,6 +70,3 @@ vCenter Server collects real-time 20-second performance data samples and rolls t
 
 For polling vCenter Server configuration data, Unified Manager follows the same schedule as for collecting cluster configuration data. For information about vCenter Server configuration and performance data collection schedule, see " Cluster configuration and performance data collection activity".
 
-*Related information*
-
-xref:concept-cluster-configuration-and-performance-data-collection-activity.adoc[Cluster configuration and performance data collection activity]

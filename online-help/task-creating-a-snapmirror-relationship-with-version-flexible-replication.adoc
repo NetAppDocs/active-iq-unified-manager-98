@@ -47,6 +47,4 @@ The jobs tasks and details are displayed in the Job details page.
 +
 The new relationship is displayed in the Volume / Health details page topology view.
 
-*Related information*
 
-xref:task-configuring-a-connection-between-workflow-automation-and-unified-manager.adoc[Configuring a connection between Workflow Automation and Unified Manager]

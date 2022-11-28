@@ -38,6 +38,3 @@ A warning dialog box is displayed.
 +
 The selected aggregates are removed from the Members pane.
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

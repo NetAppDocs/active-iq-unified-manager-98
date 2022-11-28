@@ -29,12 +29,3 @@ If the authentication service is set to Active Directory, and if you are validat
 +
 If you are authenticating a remote group, you must not enter the password.
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-enabling-remote-authentication.adoc[Enabling remote authentication]
-
-xref:task-setting-up-authentication-services.adoc[Setting up authentication services]
-
-xref:task-adding-authentication-servers.adoc[Adding authentication servers]

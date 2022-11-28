@@ -48,6 +48,3 @@ A filtered list of jobs is displayed.
 +
 The resynchronization job is finished when all job tasks successfully complete.
 
-*Related information*
-
-xref:task-configuring-a-connection-between-workflow-automation-and-unified-manager.adoc[Configuring a connection between Workflow Automation and Unified Manager]

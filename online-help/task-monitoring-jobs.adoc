@@ -26,6 +26,3 @@ The Jobs page is displayed.
 +
 The Job details page is displayed.
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

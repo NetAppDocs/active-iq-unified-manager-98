@@ -28,6 +28,3 @@ The settings described in this task are applied globally to all unmanaged protec
 . To disable a warning or error event from being triggered from any lag threshold amount, uncheck the box next to *Enabled*.
 . Click *Save*.
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
