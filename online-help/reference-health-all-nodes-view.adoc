@@ -19,10 +19,3 @@ The *Hardware Inventory Report* button is provided when Unified Manager, and the
 
 See xref:reference-node-health-fields.adoc[Node health fields] for descriptions of all the fields on this page.
 
-*Related information*
-
-xref:task-generating-a-hardware-inventory-report-for-contract-renewal.adoc[Generating a hardware inventory report for contract renewal]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

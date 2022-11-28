@@ -15,10 +15,4 @@ The controls along the top of the page enable you to select a particular view (f
 
 See xref:reference-cluster-capacity-fields.adoc[Cluster capacity fields] for descriptions of all the fields on this page.
 
-*Related information*
 
-xref:task-viewing-the-cluster-list-and-details.adoc[Viewing the cluster list and details]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

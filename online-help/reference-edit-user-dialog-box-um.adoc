@@ -51,6 +51,3 @@ Saves the changes and closes the Edit User dialog box.
 +
 Cancels the changes and closes the Edit User dialog box.
 
-*Related information*
-
-xref:task-editing-user-settings.adoc[Editing the user settings]
