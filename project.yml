@@ -80,7 +80,7 @@ homepage:
         - title: Set up protection relationship
           url: /data-protection/task-setting-up-protection-relationships-in-unified-manager.html
         - title: Perform failover and failback
-          url: /data-protection/task-performing-protection-relationship-failover-and-failback.html
+          url: /data-protection/task-performing-a-protection-relationship-failover-and-failback.html
         - title: Manage protection relationship
           url: /data-protection/concept-managing-and-monitoring-protection-relationships.html
         - title: Generate reports
@@ -89,8 +89,8 @@ homepage:
       links:
         - title: Get started
           url: /api-automation/concept-api-url-and-categories.html
-        - title: Access Unified Manager APIs
-          url: /api-automation/concept-rest-api-accessing-and-authentication-in-um-apis.html
+        - title: REST API access and authentication in Active IQ Unified Manager
+          url: /api-automation/concept-rest-api-access-and-authentication-in-oncommand-api-services.html
         - title: Access ONTAP APIs
           url: /api-automation/concept-gateway-apis.html             
     - title: More resources
