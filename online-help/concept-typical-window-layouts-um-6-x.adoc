@@ -21,6 +21,3 @@ image::../media/object-list.png[]
 
 image::../media/object-details.gif[]
 
-*Related information*
-
-xref:reference-window-layout-customization.adoc[Window layout customization]

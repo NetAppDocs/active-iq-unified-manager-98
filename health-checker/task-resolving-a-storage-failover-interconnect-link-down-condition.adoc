@@ -41,8 +41,4 @@ The Event details page for that event is displayed.
   *** Assign the event to an administrator. xref:task-assigning-events-to-specific-users.adoc[Assigning events]
   *** Acknowledge the event. xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]
 
-*Related information*
 
-xref:reference-event-details-page.adoc[Event details page]
-
-xref:reference-unified-manager-roles-and-capabilities.adoc[Unified Manager user roles and capabilities]

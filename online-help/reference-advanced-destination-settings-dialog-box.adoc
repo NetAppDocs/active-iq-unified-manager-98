@@ -23,6 +23,3 @@ For example, you might have a 200-GB volume that contains files totaling 50 GB; 
 
 The space guarantee is set to Volume by default.
 
-*Related information*
-
-xref:reference-configure-protection-dialog-box.adoc[Configure Protection dialog box]

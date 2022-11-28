@@ -34,6 +34,4 @@ The Event details page for the error is displayed.
  ** Acknowledge the event. xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]
  ** Mark the event as resolved. xref:task-acknowledging-and-resolving-events.adoc[Acknowledging and resolving events]
 
-*Related information*
 
-xref:reference-event-details-page.adoc[Event details page]

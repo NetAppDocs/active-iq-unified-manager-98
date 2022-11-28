@@ -21,6 +21,3 @@ Enables you to select a script for the alert.
 +
 Enables you to specify a description for the script.
 
-*Related information*
-
-xref:task-adding-scripts.adoc[Adding scripts]

@@ -179,6 +179,3 @@ a|
 a|
 2000
 |===
-*Related information*
-
-xref:task-creating-and-editing-psls.adoc[Creating and editing Performance Service Levels]

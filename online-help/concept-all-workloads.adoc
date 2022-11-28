@@ -43,8 +43,3 @@ xref:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc[Troubles
 
 You can view performance information about a workload to help with troubleshooting by clicking the bar chart icon in the *Performance View* column. To view performance and capacity charts on the Workload Analysis page to analyze the object, click the *Analyze Workload* button.
 
-*Related information*
-
-xref:task-creating-and-editing-psls.adoc[Creating and editing Performance Service Levels]
-
-xref:task-creating-and-editing-seps.adoc[Creating and editing Storage Efficiency Policies]

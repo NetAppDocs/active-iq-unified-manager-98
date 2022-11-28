@@ -44,6 +44,3 @@ If the Cluster Not Reachable event is generated due to a power outage, then when
 
 Unified Manager sends an alert when an event is in the Obsolete or Resolved state. The email subject line and email content of an alert provides information about the event state. An SNMP trap also includes information about the event state.
 
-*Related information*
-
-xref:concept-how-object-status-is-computed.adoc[How object status is computed]

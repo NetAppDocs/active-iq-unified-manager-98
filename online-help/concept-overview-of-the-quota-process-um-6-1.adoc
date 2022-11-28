@@ -25,8 +25,3 @@ If yes, the write operation succeeds when the soft limit is breached and the sof
 +
 If yes, the write operation succeeds and no notification is sent.
 
-*Related information*
-
-xref:concept-about-quotas.adoc[About quotas]
-
-xref:concept-why-you-use-quotas.adoc[Why you use quotas]

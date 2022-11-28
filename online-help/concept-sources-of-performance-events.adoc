@@ -31,8 +31,3 @@ Performance issues that are the result of failures or errors in an IT infrastruc
 +
 These thresholds are enabled by default, and you might see events after three days of collecting data from a new cluster.
 
-*Related information*
-
-xref:concept-managing-performance-thresholds.adoc[Managing performance thresholds]
-
-xref:task-disabling-unwanted-events.adoc[Disabling unwanted events]

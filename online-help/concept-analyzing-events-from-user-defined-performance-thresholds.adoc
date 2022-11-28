@@ -13,12 +13,4 @@ Events generated from user-defined thresholds indicate that a performance counte
 
 You use the Event details page to analyze the performance event and take corrective action, if necessary, to return performance back to normal.
 
-*Related information*
 
-xref:reference-event-details-page.adoc[Event details page]
-
-xref:concept-managing-performance-thresholds.adoc[Managing performance thresholds]
-
-xref:task-checking-the-health-of-clusters-in-a-metrocluster-configuration.adoc[Checking the health of clusters in a MetroCluster configuration]
-
-xref:reference-list-of-events-and-severity-types.adoc[List of events and severity types]

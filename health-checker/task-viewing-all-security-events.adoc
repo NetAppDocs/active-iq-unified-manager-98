@@ -25,8 +25,3 @@ By default, New and Acknowledged events are displayed on the Event Management in
 +
 The page displays all New and Acknowledged Security events that have been generated in the past 7 days.
 
-*Related information*
-
-xref:task-adding-alerts-for-security-events.adoc[Adding alerts for security events]
-
-xref:task-disabling-specific-security-events.adoc[Disabling specific security events]
