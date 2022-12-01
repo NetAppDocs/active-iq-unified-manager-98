@@ -31,7 +31,7 @@ Using the View and Compare functionality:
  ** the storage VM on which the FlexGroup resides
  ** the constituent volumes of the FlexGroup
 
-The statistics in the charts are updated after each collection period; which by default is every 5 minutes. The View statistics in selector provides an option to show statistics averaged over the previous hour. This functionality enables you to view the latency chart in support of the NetApp"`Performance Guarantee`" program.
+The statistics in the charts are updated after each collection period; which by default is every 5 minutes. The View statistics in selector provides an option to show statistics averaged over the previous hour. This functionality enables you to view the latency chart in support of the NetApp"Performance Guarantee" program.
 
 The Volume/Performance Explorer page enables you to:
 
