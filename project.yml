@@ -6,6 +6,7 @@ settings:
     lipi-enabled: false
   prod:
     pdf-enabled: true
+    harmony_enabled: true
   versions:
     - name: Unified Manager
       url: /active-iq-unified-manager-98
