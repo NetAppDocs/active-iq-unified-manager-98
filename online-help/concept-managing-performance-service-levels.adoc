@@ -21,6 +21,7 @@ You cannot modify a PSL that is system-defined or that is currently assigned to 
 
 The Performance Service Levels page lists the available PSL policies and enables you to add, edit, and delete them. This page displays the following information:
 
+[options="header"]
 |===
 | Field| Description
 a|
@@ -84,7 +85,7 @@ https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/
 Note that if workloads exceed the expected latency value for 30% of the time during the previous hour, Unified Manager will generate one of the following events to notify you of a potential performance issue: "`Workload Volume Latency Threshold Breached as defined by Performance Service Level Policy`" or "`Workload LUN Latency Threshold Breached as defined by Performance Service Level Policy`". You may want to analyze the workload to see what may be causing the higher latency values.
 
 The following table provides information about the system-defined PSLs:
-
+[options="header"]
 |===
 | Performance Service Level| Description and use case| Expected latency (ms/op)| Peak IOPS| Expected IOPS| Absolute minimum IOPS
 a|
@@ -178,6 +179,3 @@ a|
 a|
 2000
 |===
-*Related information*
-
-xref:task-creating-and-editing-psls.adoc[Creating and editing Performance Service Levels]

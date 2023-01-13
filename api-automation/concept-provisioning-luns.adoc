@@ -23,6 +23,7 @@ This workflow assumes that the ONTAP clusters have been added to Unified Manager
 . Obtain the SVM key for the SVM on which you want to create the LUN, as described in the _Verifying SVMs on clusters_ workflow topic.
 . Obtain the key for the Performance Service Level by running the following API and retrieving the key from the response.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -40,6 +41,7 @@ You can retrieve the details of the system-defined Performance Service Levels by
 
 . Optionally, obtain the Storage Efficiency Policy key for the Storage Efficiency Policy that you want to apply on the LUN by running the following API and retrieving the key from the response.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -52,6 +54,7 @@ a|
 
 . Determine if initiator groups (igroups) have been created to grant access to the LUN target that you want to create.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -60,12 +63,13 @@ a|
 GET
 a|
 `/datacenter/protocols/san/igroups`     `+/datacenter/protocols/san/igroups/{key}+`
-+
+
 |===
 You must enter the parameter value for indicating the SVM for which the igroup has authorized access. Additionally, if you want to query a particular igroup, enter the igroup name (key) as an input parameter.
 
 . In the output, if you can find the igroup that you want to grant access to, obtain the key. Otherwise create the igroup.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -79,6 +83,7 @@ You must enter the details of the igroup that you want to create, as the input p
 
 . Create the LUN.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -113,6 +118,7 @@ The JSON output displays a Job object key that you can use to verify the LUN tha
 
 . Verify the LUN creation by using the Job object key returned in querying the Job:
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -120,8 +126,8 @@ management-server
 a|
 GET
 a|
-    `+/management-server/jobs/{key}+`
-+
+`+/management-server/jobs/{key}+`
+
 |===
 At the end of the response, you see the key of the LUN created.
 +
@@ -141,6 +147,7 @@ At the end of the response, you see the key of the LUN created.
 
 . Verify the creation of the LUN by running the following API with the returned key:
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -236,6 +243,7 @@ Follow these troubleshooting steps to work around this failure.
 
 . Create an access endpoint supporting ISCSI/FCP protocol on the SVM on which you tried creating the LUN.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -265,6 +273,7 @@ curl -X POST "https://<hostname>/api/storage-provider/access-endpoints" -H "acce
 
 . Query the job with the Job object key returned in the JSON output to verify that it has run successfully to add the access endpoints on the SVM and that the iSCSI/FCP services have been enabled on the SVM.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -299,6 +308,7 @@ At the end of the output, you can see the key of the access endpoints created. I
 
 . Modify the LUN to update the igroup mapping. For more information about workflow modification, see "`Modifying storage workloads`".
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -324,6 +334,7 @@ The JSON output displays a Job object key that you can use to verify whether the
 
 . Verify the LUN mapping by querying with the LUN key.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -421,19 +432,3 @@ In the output you can see the LUN has been successfully mapped with the igroup (
   }
 }
 ----
-
-*Related information*
-
-xref:concept-verifying-svm-workflow.adoc[Verifying SVMs on clusters]
-
-xref:concept-job-api.adoc[Viewing Jobs]
-
-xref:concept-managing-lun.adoc[Managing LUNs]
-
-xref:concept-managing-psl.adoc[Managing Performance Service Levels]
-
-xref:concept-managing-sep.adoc[Managing Storage Efficiency Policies]
-
-xref:concept-managing-access-endpoint.adoc[Managing access endpoints]
-
-xref:concept-data-center-apis.adoc[Managing data centers]

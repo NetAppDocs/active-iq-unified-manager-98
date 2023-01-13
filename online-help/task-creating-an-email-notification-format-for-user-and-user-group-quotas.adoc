@@ -24,6 +24,3 @@ You must have the Application Administrator or Storage Administrator role.
 . Modify the content of the email notification, if required.
 . Click *Save*.
 
-*Related information*
-
-xref:task-creating-rules-to-generate-email-addresses.adoc[Creating rules to generate email addresses]

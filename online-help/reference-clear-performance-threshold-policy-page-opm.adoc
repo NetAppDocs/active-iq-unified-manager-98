@@ -15,6 +15,3 @@ The list of policies is populated with only those policies that are being used i
 
 You select the policy that you want to remove from the storage object or objects, and then you click *Clear Policy*.
 
-*Related information*
-
-xref:task-removing-performance-threshold-policies-from-storage-objects.adoc[Removing performance threshold policies from storage objects]

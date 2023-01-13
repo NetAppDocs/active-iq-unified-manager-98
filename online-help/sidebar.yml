@@ -1,7 +1,8 @@
 section: online-help
-title: Online Help
+title: Online help
 entries:
   - title: Introduction to Active IQ Unified Manager
+    pdf-filename: Introduction to Active IQ Unified Manager (manage and monitor)
     url: "/online-help/concept-introduction-to-unified-manager.html"
     entries:
     - title: Introduction to Active IQ Unified Manager health monitoring
@@ -1269,9 +1270,6 @@ entries:
       entries:
       - title: Volume behavior during switchover and switchback
         url: "/online-help/concept-volume-behavior-during-switchover-and-switchback.html"
-    - title: What performance events are
-      url: "/online-help/concept-what-performance-events-are.html"
-      entries:
       - title: Performance event analysis and notification
         url: "/online-help/reference-performance-event-analysis-and-notification.html"
       - title: How Unified Manager determines the performance impact for an event
@@ -1442,6 +1440,7 @@ entries:
     url: "/online-help/concept-troubleshooting.html"
     entries:
     - title: Changing the Unified Manager host name
+      pdf-filename: Changing the Unified Manager host name (manage and monitor)
       url: "/online-help/concept-changing-the-unified-manager-host-name.html"
       entries:
       - title: Changing the Unified Manager virtual appliance host name
@@ -1449,6 +1448,7 @@ entries:
       - title: Changing the Unified Manager host name on Linux systems
         url: "/online-help/task-changing-the-unified-manager-host-name-on-rhel-or-centos.html"
     - title: Adding disk space to the Unified Manager database directory
+      pdf-filename: Adding disk space to the Unified Manager database directory (manage and monitor)
       url: "/online-help/concept-adding-disk-space-to-the-unified-manager-database-directory.html"
       entries:
       - title: Adding space to the data disk of the VMware virtual machine
@@ -1474,10 +1474,4 @@ entries:
       url: "/online-help/reference-user-not-found.html"
     - title: Issue with adding LDAP using Other authentication services
       url: "/online-help/reference-issue-with-adding-ldap-using-other-authentication-services.html"
-  - title: Copyright and trademark
-    url: "/online-help/reference-copyright-and-trademark.html"
-    entries:
-    - title: Copyright
-      url: "/online-help/reference-copyright.html"
-    - title: Trademark
-      url: "/online-help/reference-trademark.html"
+  

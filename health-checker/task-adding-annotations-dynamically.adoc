@@ -23,6 +23,3 @@ You must have the Application Administrator or Storage Administrator role.
 . Optional: In the *Annotation Values* section, click *Add* to add values to the annotation.
 . Click *Save*.
 
-*Related information*
-
-xref:task-adding-values-to-annotations.adoc[Adding values to annotations]

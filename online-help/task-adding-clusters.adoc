@@ -67,8 +67,3 @@ If you receive an error message that you cannot add the cluster, check to see if
 
 ====
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:reference-cluster-setup-page.adoc[Cluster Setup page]

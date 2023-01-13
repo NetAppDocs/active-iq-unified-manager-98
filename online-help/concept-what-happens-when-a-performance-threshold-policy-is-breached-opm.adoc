@@ -23,8 +23,3 @@ After a performance threshold policy breach has occurred on a storage object, no
 
 A threshold event captures, or freezes, the information related to severity and policy definition so that unique threshold information displays with the event, even if the threshold policy is modified in the future.
 
-*Related information*
-
-xref:concept-what-performance-events-are.adoc[What performance events are]
-
-xref:concept-what-alerts-are.adoc[What alerts are]

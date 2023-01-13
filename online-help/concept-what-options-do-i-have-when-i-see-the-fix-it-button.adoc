@@ -13,6 +13,7 @@ The *Fix It* button and *Fix All* button enable you to fix issues that Unified M
 
 We recommend that you click the *Fix It* or *Fix All* button to fix an issue when it is available. However, if you are not sure that you want to resolve the issue as recommended by Unified Manager, you can perform the following actions:
 
+[options="header"]
 |===
 | What do you want to do?| Action
 a|
@@ -29,6 +30,7 @@ a|
 Click the name of the management action to expand the list and show all individual *Fix It* actions.Then follow the steps for fixing or dismissing individual management actions.
 
 |===
+[options="header"]
 |===
 | What do you want to do?| Action
 a|

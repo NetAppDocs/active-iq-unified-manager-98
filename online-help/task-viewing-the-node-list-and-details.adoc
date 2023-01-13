@@ -28,6 +28,7 @@ The detailed information for the selected node is displayed in the Cluster / Hea
 
 . To view other details about the node, perform the appropriate action:
 +
+[options="header"]
 |===
 | To view...| Click...
 a|
@@ -40,16 +41,3 @@ a|
 *Ports*.
 |===
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]
-
-xref:task-viewing-the-cluster-list-and-details.adoc[Viewing the cluster list and details]
-
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:task-generating-a-hardware-inventory-report-for-contract-renewal.adoc[Generating a hardware inventory report for contract renewal]
-
-xref:reference-health-all-nodes-view.adoc[Health: All Nodes view]

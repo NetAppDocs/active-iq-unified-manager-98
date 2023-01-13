@@ -33,6 +33,3 @@ Before beginning a backup operation, Unified Manager performs an integrity check
 
 Note that you can restore a backup only on the same version of Unified Manager. For example, if you created a backup on Unified Manager 9.7, the backup can be restored only on Unified Manager 9.7 systems.
 
-*Related information*
-
-xref:reference-database-backup-page.adoc[Database Backup page]

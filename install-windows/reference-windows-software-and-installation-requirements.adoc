@@ -21,7 +21,7 @@ Unified Manager runs only on a 64-bit English language Windows operating system.
 
 Note that Windows Server 2012 is not supported as it was in earlier releases. See the Interoperability Matrix for the complete and most current list of supported Windows versions.
 
-http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
+http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix^]
 
 The server should be dedicated to running Unified Manager. No other applications should be installed on the server.
 
@@ -36,7 +36,7 @@ The following third-party packages are bundled with Unified Manager. If these th
 [NOTE]
 ====
     The installer of Unified Manager has been restricted to support only up to MySQL Community Edition 8.0.21, due to an interoperability issue. You *must not* upgrade MySQL to a release greater than 8.0.21.
-+
+
 ====
 
 * Python 3.6.x

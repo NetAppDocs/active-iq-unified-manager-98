@@ -49,6 +49,3 @@ Adds the user and closes the Add User dialog box.
 +
 Cancels the changes and closes the Add User dialog box.
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

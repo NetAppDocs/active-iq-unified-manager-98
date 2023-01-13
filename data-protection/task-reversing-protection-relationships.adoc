@@ -46,6 +46,3 @@ A filtered list of jobs related to this operation is displayed.
 +
 The reverse resynchronization operation is finished when all job tasks successfully complete.
 
-*Related information*
-
-xref:reference-reverse-resync-dialog-box.adoc[Reverse Resync dialog box]

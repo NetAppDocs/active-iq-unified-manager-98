@@ -13,6 +13,3 @@ The maintenance user is created during the installation of Unified Manager on a 
 
 The maintenance user, or umadmin user, can also access the Unified Manager maintenance console.
 
-*Related information*
-
-xref:task-using-the-maintenance-console.adoc[Using the maintenance console]

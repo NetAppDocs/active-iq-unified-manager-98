@@ -34,6 +34,3 @@ The other volumes that share the same QoS policy are listed in the table below.
 +
 You can change the time range to view the performance over different time intervals other than the default of 72 hours.
 
-*Related information*
-
-xref:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc[Troubleshooting workloads using the workload analyzer]

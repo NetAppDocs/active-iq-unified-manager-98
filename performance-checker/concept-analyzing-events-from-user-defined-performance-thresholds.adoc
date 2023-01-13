@@ -13,8 +13,3 @@ Events generated from user-defined thresholds indicate that a performance counte
 
 You use the Event details page to analyze the performance event and take corrective action, if necessary, to return performance back to normal.
 
-*Related information*
-
-xref:concept-managing-performance-thresholds.adoc[Managing performance thresholds]
-
-xref:reference-performance-event-severity-types.adoc[Performance event severity types]

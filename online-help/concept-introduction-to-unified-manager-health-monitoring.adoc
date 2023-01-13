@@ -19,8 +19,3 @@ You can use Unified Manager to manage storage objects in your environment by ass
 
 You can also plan the storage requirements of your cluster objects using the information provided in the capacity and health charts, for the respective cluster object.
 
-*Related information*
-
-xref:concept-what-the-unified-manager-server-does.adoc[What the Unified Manager server does]
-
-xref:concept-introduction-to-unified-manager-performance-monitoring.adoc[Introduction to Active IQ Unified Manager performance monitoring]

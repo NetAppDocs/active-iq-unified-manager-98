@@ -28,6 +28,7 @@ Ensure the following:
 
 . Determine whether Data LIFs or access endpoints are available on the SVM on which you want to create the CIFS share. Get the list of available access endpoints on the SVM:
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -35,10 +36,10 @@ storage-provider
 a|
 GET
 a|
-    `/storage-provider/access-endpoints`
-+
+`/storage-provider/access-endpoints`
+
 `+/storage-provider/access-endpoints/{key}+`
-+
+
 |===
 *Sample cURL*
 +
@@ -53,6 +54,7 @@ curl -X GET "https://<hostname>/api/storage-provider/access-endpoints?resource.k
 Ensure that you create access endpoints that have the CIFS protocol enabled on them. Provisioning CIFS shares fails unless you have created an access endpoint with the CIFS protocol enabled on it.
 ====
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -84,6 +86,7 @@ The JSON output displays a Job object key that you can use to verify the access 
 
 . Verify the access endpoint:
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -91,13 +94,14 @@ management-server
 a|
 GET
 a|
-    `+/management-server/jobs/{key}+`
-+
+`+/management-server/jobs/{key}+`
+
 |===
 
 . Determine whether you have to create a CIFS share or an NFS file share. For creating CIFS shares, follow these substeps:
  .. Determine whether the CIFS server is configured on your SVM, that is determine whether an Active Directory mapping is created on the SVM.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -105,12 +109,13 @@ storage-provider
 a|
 GET
 a|
-        `/storage-provider/active-directories-mappings`
-+
+`/storage-provider/active-directories-mappings`
+
 |===
 
  .. If the Active Directory mapping is created, take the key, else create the Active Directory mapping on the SVM.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -138,6 +143,7 @@ This is a synchronous call and you can verify the creation of the Active Directo
 . Obtain the SVM key for the SVM on which you want to create the CIFS share or the NFS file share, as described in the _Verifying SVMs on clusters_ workflow topic.
 . Obtain the key for the Performance Service Level by running the following API and retrieving the key from the response.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -145,8 +151,8 @@ storage-provider
 a|
 GET
 a|
-    `/storage-provider/performance-service-levels`
-+
+`/storage-provider/performance-service-levels`
+
 |===
 +
 [NOTE]
@@ -156,6 +162,7 @@ You can retrieve the details of the system-defined Performance Service Levels by
 
 . Optionally, obtain the Storage Efficiency Policy key for the Storage Efficiency Policy that you want to apply on the file share by running the following API and retrieving the key from the response.
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -163,8 +170,8 @@ storage-provider
 a|
 GET
 a|
-    `/storage-provider/storage-efficiency-policies`
-+
+`/storage-provider/storage-efficiency-policies`
+
 |===
 
 . Create the file share. You can create a file share that supports both CIFS and NFS by specifying the access control list and export policy. The following substeps provide information if you want to create a file share for supporting only one of the protocols on the volume. You can also update an NFS file share to include the access control list after you have created the NFS share. For information, see the _Modifying storage workloads_ topic.
@@ -209,12 +216,13 @@ While provisioning the NFS share, you can either create an export policy by prov
 
 +
 After configuring access control list and export policy, provide the valid values for the mandatory input parameters for both CIFS and NFS file shares:
-+
+
 [NOTE]
 ====
 Storage Efficiency Policy is an optional parameter for creating file shares.
 ====
-+
+
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -227,6 +235,7 @@ a|
 The JSON output displays a Job object key that you can use to verify the file share that you created.
 . Verify the file share creation by using the Job object key returned in querying the job:
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -257,6 +266,7 @@ At the end of the response, you see the key of the file share created.
 
 . Verify the creation of the file share by running the following API with the returned key:
 +
+[options="header"]
 |===
 | Category| HTTP verb| Path
 a|
@@ -391,18 +401,3 @@ You can see that the POST method of `/storage-provider/file-shares` internally i
 }
 ----
 
-*Related information*
-
-xref:concept-verifying-svm-workflow.adoc[Verifying SVMs on clusters]
-
-xref:concept-job-api.adoc[Viewing Jobs]
-
-xref:concept-managing-fileshares-api.adoc[Managing file shares]
-
-xref:concept-managing-access-endpoint.adoc[Managing access endpoints]
-
-xref:concept-managing-active-directory.adoc[Managing Active Directory mapping]
-
-xref:concept-managing-psl.adoc[Managing Performance Service Levels]
-
-xref:concept-managing-sep.adoc[Managing Storage Efficiency Policies]

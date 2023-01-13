@@ -40,10 +40,4 @@ When an alert is generated, this script is executed and the following output is 
 -eventSourceID : 4138
 ----
 
-*Related information*
 
-xref:reference-management-scripts-page.adoc[Scripts page]
-
-xref:task-adding-alerts.adoc[Adding alerts]
-
-xref:reference-supported-unified-manager-cli-commands.adoc[Supported Unified Manager CLI commands]

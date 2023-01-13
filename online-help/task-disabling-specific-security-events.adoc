@@ -24,6 +24,7 @@ When you disable events, the previously generated events in the system are marke
 . In the left navigation pane, click *Storage Management* > *Event Setup*.
 . In the *Event Setup* page, disable or enable events by choosing one of the following options:
 +
+[options="header"]
 |===
 | If you want to...| Then do this...
 a|
@@ -46,6 +47,4 @@ a|
 +
 |===
 
-*Related information*
 
-xref:task-viewing-all-security-events.adoc[Viewing all active security events]

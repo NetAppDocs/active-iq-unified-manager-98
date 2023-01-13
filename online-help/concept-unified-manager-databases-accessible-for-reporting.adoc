@@ -13,6 +13,7 @@ Unified Manager uses a MySQL database to store data from the clusters that it is
 
 All table data from the following databases are available:
 
+[options="header"]
 |===
 | Database| Description
 a|
@@ -64,6 +65,3 @@ A reporting user -- a Database user with the Report Schema role -- is able to ac
 
 See the http://www.netapp.com/us/media/tr-4565.pdf[Technical Report for Unified Manager Reporting] (TR-4565) for more details.
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

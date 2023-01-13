@@ -19,7 +19,7 @@ The Linux system must have the following versions of the operating system and su
 
 See the Interoperability Matrix for the complete and most current list of supported Red Hat Enterprise Linux and CentOS versions.
 
-http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix]
+http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix^]
 
 == Third-party software
 
@@ -55,7 +55,7 @@ See the Red Hat documentation for information about the Red Hat Subscription Man
 +
 If the EPEL repository is not configured on your system, you must manually download and configure the repository.
 +
-link:task-manually-configuring-the-epel-repository.md#[Manually configuring the EPEL repository]
+xref:task-manually-configuring-the-epel-repository.adoc[Manually configuring the EPEL repository]
 
 * If the correct version of MySQL is not installed, you must enable the MySQL repository to successfully install MySQL software on your system.
 +

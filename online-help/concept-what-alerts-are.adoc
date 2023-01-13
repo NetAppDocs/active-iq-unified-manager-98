@@ -13,12 +13,3 @@ While events occur continuously, the Unified Manager generates an alert only whe
 
 Filter criteria include object class, name, or event severity.
 
-*Related information*
-
-xref:concept-what-health-events-are.adoc[What health events are]
-
-xref:concept-what-performance-events-are.adoc[What performance events are]
-
-xref:concept-what-event-management-system-events-are.adoc[What Event Management System events are]
-
-xref:concept-managing-scripts.adoc[Managing scripts]

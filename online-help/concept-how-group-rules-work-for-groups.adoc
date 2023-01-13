@@ -24,7 +24,7 @@ You can create multiple condition groups, and each condition group can have one 
 Conditions within a condition group are executed using logical AND. All the conditions in a condition group must be met. When you create or modify a group rule, a condition is created that applies, selects, and groups only those storage objects that satisfy all conditions in the condition group. You can use multiple conditions within a condition group when you want to narrow the scope of which storage objects to include in a group.
 
 You can create conditions with storage objects by using the following operands and operator and specifying the required value.
-
+[options="header"]
 |===
 | Storage object type| Applicable operands
 a|

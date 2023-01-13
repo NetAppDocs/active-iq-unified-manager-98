@@ -60,8 +60,3 @@ If you do not see this capability available in the user interface it is because 
 . Enter a description for the script that you select.
 . Click *Add*.
 
-*Related information*
-
-xref:concept-managing-scripts.adoc[Managing scripts]
-
-xref:task-testing-script-execution.adoc[Testing script execution]

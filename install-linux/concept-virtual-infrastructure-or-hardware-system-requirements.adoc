@@ -13,6 +13,7 @@ Installing Unified Manager on virtual infrastructure or a physical system should
 
 The following table displays the values that are recommended for memory, CPU, and disk space resources. These values have been qualified so that Unified Manager meets acceptable performance levels.
 
+[options="header"]
 |===
 | Hardware configuration| Recommended settings
 a|
@@ -45,7 +46,7 @@ Unified Manager can be installed on systems with a small amount of memory, but t
 
 Additionally, there is a limit to the number of nodes that a single instance of Unified Manager can monitor before you install a second instance of Unified Manager. For more information, see the _Best Practices Guide_.
 
-http://www.netapp.com/us/media/tr-4621.pdf[Technical Report 4621: Unified Manager Best Practices Guide]
+http://www.netapp.com/us/media/tr-4621.pdf[Technical Report 4621: Unified Manager Best Practices Guide^]
 
 Memory-page swapping negatively impacts the performance of the system and the management application. Competing for CPU resources that are unavailable because of overall host utilization can degrade performance.
 
@@ -64,7 +65,3 @@ The physical system or virtual system on which you install Unified Manager shoul
 You can use the host name (or the host IP address) to access the product web UI. If you configured a static IP address for your network during deployment, then you designated a name for the network host. If you configured the network using DHCP, you should obtain the host name from the DNS.
 
 If you plan to allow users to access Unified Manager by using the short name instead of using the fully qualified domain name (FQDN) or IP address, then your network configuration has to resolve this short name to a valid FQDN.
-
-*Related information*
-
-xref:task-selinux-requirements-for-mounting-opt-netapp-or-opt-netapp-data-on-an-nfs-or-cifs-share.adoc[SELinux requirements for mounting /opt/netapp or /opt/netapp/data on an NFS or CIFS share]

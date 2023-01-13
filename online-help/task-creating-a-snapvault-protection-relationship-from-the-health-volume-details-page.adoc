@@ -45,12 +45,3 @@ The Job details page is displayed.
 +
 When the job tasks are complete, the new relationships are displayed in the Volume / Health details page topology view.
 
-*Related information*
-
-xref:reference-configure-protection-dialog-box.adoc[Configure Protection dialog box]
-
-xref:reference-advanced-secondary-setting-dialog-box.adoc[Advanced Secondary Settings dialog box]
-
-xref:concept-executing-protection-workflows-using-wfa.adoc[Executing protection workflows using OnCommand Workflow Automation]
-
-xref:task-configuring-a-connection-between-workflow-automation-and-unified-manager.adoc[Configuring a connection between Workflow Automation and Unified Manager]

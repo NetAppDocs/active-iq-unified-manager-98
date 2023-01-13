@@ -19,6 +19,7 @@ You can export data to a `.csv` file, `.xlsx` file, or `.pdf` document from the 
 
 . Perform one of the following actions:
 +
+[options="header"]
 |===
 | If you want to export...| Do this...
 a|
@@ -52,8 +53,4 @@ The file is downloaded.
 
 . Open the file in the appropriate application.
 
-*Related information*
 
-xref:reference-health-all-clusters-view.adoc[Health: All Clusters view]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]

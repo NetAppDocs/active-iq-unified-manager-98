@@ -28,6 +28,7 @@ Shares in folders are not displayed.
 
 . In the left navigation pane, follow the steps below depending on whether you want to view all SMB/CIFS shares or just the shares for a particular SVM.
 +
+[options="header"]
 |===
 | To...| Follow these steps...
 a|

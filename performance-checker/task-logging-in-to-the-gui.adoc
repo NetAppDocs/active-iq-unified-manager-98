@@ -15,7 +15,7 @@ You can log in to the Unified Manager UI using a supported web browser.
 
 * The web browser must meet minimum requirements.
 +
-See the Interoperability Matrix at http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix] for the complete list of supported browser versions.
+See the Interoperability Matrix at http://mysupport.netapp.com/matrix[mysupport.netapp.com/matrix^] for the complete list of supported browser versions.
 
 * You must have the IP address or URL of the Unified Manager server.
 

@@ -19,7 +19,7 @@ This area enables you to configure the following email settings for alert notifi
 
 * *From Address*
 +
-Specifies the email address from which the alert notification is sent. This value is also used as the from address for a report when shared. If the From Address is pre-filled with the address "`ActiveIQUnifiedManager@localhost.com`", you should change it to a real, working email address to make sure that all email notifications are delivered successfully.
+Specifies the email address from which the alert notification is sent. This value is also used as the from address for a report when shared. If the From Address is pre-filled with the address "ActiveIQUnifiedManager@localhost.com", you should change it to a real, working email address to make sure that all email notifications are delivered successfully.
 
 == SMTP Server
 
@@ -102,6 +102,3 @@ Specifies the privacy protocol used to encrypt SNMP messages. Protocol options i
 +
 Specifies the password when using privacy protocol. Privacy password is available with SNMP Version 3 with Authentication and Encryption.
 
-*Related information*
-
-xref:task-configuring-event-notification-settings.adoc[Configuring event notification settings]

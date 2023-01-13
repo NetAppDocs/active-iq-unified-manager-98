@@ -31,7 +31,7 @@ Using the View and Compare functionality:
  ** the storage VM on which the FlexGroup resides
  ** the constituent volumes of the FlexGroup
 
-The statistics in the charts are updated after each collection period; which by default is every 5 minutes. The View statistics in selector provides an option to show statistics averaged over the previous hour. This functionality enables you to view the latency chart in support of the NetApp"`Performance Guarantee`" program.
+The statistics in the charts are updated after each collection period; which by default is every 5 minutes. The View statistics in selector provides an option to show statistics averaged over the previous hour. This functionality enables you to view the latency chart in support of the NetApp"Performance Guarantee" program.
 
 The Volume/Performance Explorer page enables you to:
 
@@ -48,18 +48,3 @@ The *Configure Volume* button is available if you are logged in to Unified Manag
 For data protection (DP) volumes, only counter values for user-generated traffic are displayed.
 ====
 
-*Related information*
-
-xref:concept-components-of-the-performance-explorer-page.adoc[Components of the Performance Explorer page]
-
-xref:reference-summary-page-opm.adoc[Summary page]
-
-xref:task-defining-the-list-of-correlated-objects-for-comparison-graphing.adoc[Defining the list of correlated objects for comparison graphing]
-
-xref:reference-types-of-performance-counter-charts.adoc[Types of performance counter charts]
-
-xref:task-selecting-performance-charts-to-display.adoc[Selecting performance charts to display]
-
-xref:concept-counter-charts-zoom-view.adoc[Counter Charts Zoom View]
-
-xref:concept-types-of-workloads-monitored-by-unified-manager.adoc[Types of workloads monitored by Unified Manager]

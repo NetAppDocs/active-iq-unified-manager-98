@@ -13,10 +13,3 @@ Security events provide you with information about the security status of ONTAP 
 
 Security events are grouped by source type and include the event and trap name, impact level, and severity. These events appear in the cluster and storage VM event categories.
 
-*Related information*
-
-xref:concept-managing-cluster-security-objectives.adoc[Managing cluster security objectives]
-
-xref:reference-cluster-events.adoc[Cluster events]
-
-xref:reference-storage-vm-events.adoc[Storage VM events]

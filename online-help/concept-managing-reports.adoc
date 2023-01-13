@@ -18,10 +18,4 @@ In addition to generating reports from the user interface, you can extract healt
 * Using Open Database Connectivity (ODBC) and ODBC tools to directly access the database for cluster information
 * Executing Unified Manager REST APIs to return the information you are interested in reviewing
 
-*Related information*
 
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:concept-unified-manager-databases-accessible-for-reporting.adoc[Unified Manager databases accessible for custom reporting]
-
-xref:concept-using-unified-manager-rest-apis-ocum.adoc[Using Unified Manager REST APIs]

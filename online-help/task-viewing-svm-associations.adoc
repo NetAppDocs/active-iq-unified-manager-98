@@ -21,6 +21,3 @@ You must have the Application Administrator or Storage Administrator role.
 +
 The list of SVM associations and their properties is displayed.
 
-*Related information*
-
-xref:task-adding-users.adoc[Adding users]

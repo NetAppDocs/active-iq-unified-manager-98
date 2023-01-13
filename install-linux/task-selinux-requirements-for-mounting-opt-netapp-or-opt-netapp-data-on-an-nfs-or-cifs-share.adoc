@@ -33,7 +33,7 @@ drwxr-xr-x. mysql root unconfined_u:object_r:default_t:s0 /opt/netapp/data
 In this output, the context is `default_t` that must be changed to `mysqld_db_t`.
 
 . Perform these steps to set the context based on how you have mounted `/opt/netapp/data`.
- .. Run the following commands to set the context to `mysqld_db_t`: `semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"``restorecon -R -v /opt/netapp/data`
+ .. Run the following commands to set the context to `mysqld_db_t`: `semanage fcontext -a -t mysqld_db_t "/opt/netapp/data" restorecon -R -v /opt/netapp/data`
  .. If you have configured `/opt/netapp/data` in `/etc/fstab`, you must edit the `/etc/fstab` file. For the `/opt/netapp/data/` mount option, add the MySQL label as: `context=system_u:object_r:mysqld_db_t:s0`
  .. Unmount and remount `/opt/netapp/data/` for enabling the context.
  .. If you have a direct NFS mount, run the following command to set the context to `mysqld_db_t`: `mount <nfsshare>:/<mountpoint> /opt/netapp/data -o context=system_u:object_r:mysqld_db_t:s0`
@@ -58,7 +58,7 @@ drwxr-xr-x. mysql root unconfined_u:object_r:file_t:s0 /opt/netapp
 In this output, the context is `file_t` that must be changed. The following commands set the context to `usr_t`. You can set the context to any value other than `file_t` based on your security requirements.
 
 . Perform these steps to set the context, based on how you have mounted `/opt/netapp`.
- .. Run the following commands to set the context: `semanage fcontext -a -t usr_t "/opt/netapp"``restorecon -v /opt/netapp`
+ .. Run the following commands to set the context: `semanage fcontext -a -t usr_t "/opt/netapp" restorecon -v /opt/netapp`
  .. If you have configured `/opt/netapp` in `/etc/fstab`, you must edit the `/etc/fstab` file. For the `/opt/netapp` mount option, add the MySQL label as: `context=system_u:object_r:usr_t:s0`
  .. Unmount and remount `/opt/netapp` for enabling the context.
  .. If you have a direct NFS mount, run the following command to set the context: `mount <nfsshare>:/<mountpoint> /opt/netapp -o context=system_u:object_r:usr_t:s0`

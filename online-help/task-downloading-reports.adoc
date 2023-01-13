@@ -15,6 +15,7 @@ You can download reports and save the data to a local or network drive as a comm
 
 . Click the *Reports* button to download the report as one of the following:
 +
+[options="header"]
 |===
 | Choose| To...
 a|

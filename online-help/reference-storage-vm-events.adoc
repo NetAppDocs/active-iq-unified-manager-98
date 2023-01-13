@@ -14,11 +14,9 @@ Storage VM events provide you with information about the status of your SVMs so 
 == Impact area: availability
 
 An asterisk (*) identifies EMS events that have been converted to Unified Manager events.
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 SVM CIFS Service Down(ocumEvtVserverCifsServiceStatusDown)
 
@@ -246,11 +244,9 @@ Information
 |===
 
 == Impact area: performance
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 SVM IOPS Critical Threshold Breached(ocumSvmIopsIncident)
 
@@ -308,11 +304,9 @@ Warning
 |===
 
 == Impact area: security
-
+[options="header"]
 |===
-| Event name(Trap name)
-
-| Impact level| Source type| Severity
+| Event name(Trap name)| Impact level| Source type| Severity
 a|
 Audit Log Disabled(ocumVserverAuditLogDisabled)
 
@@ -341,6 +335,3 @@ SVM
 a|
 Warning
 |===
-*Related information*
-
-xref:reference-security-events.adoc[Security events]

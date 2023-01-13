@@ -13,14 +13,3 @@ When a cluster component is in contention, volume workloads that use it might ha
 
 If the performance event is in the obsolete state, the latency of each victim involved in the event might have returned within its expected range.
 
-*Related information*
-
-xref:task-identifying-victim-workloads-involved-in-a-performance-event.adoc[Identifying victim workloads involved in a dynamic performance event]
-
-xref:task-identifying-bully-workloads-involved-in-a-performance-event.adoc[Identifying bully workloads involved in a dynamic performance event]
-
-xref:task-identifying-shark-workloads-involved-in-a-performance-event.adoc[Identifying shark workloads involved in a dynamic performance event]
-
-xref:concept-roles-of-workloads-involved-in-a-performance-incident.adoc[Roles of workloads involved in a performance event]
-
-xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[How Unified Manager determines the performance impact for an event]

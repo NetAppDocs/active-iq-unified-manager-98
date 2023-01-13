@@ -47,4 +47,4 @@ Database dump backup files are created based on the schedule. You can see the av
 
 *Related information*
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/OnCommand_Suite/How_to_start_a_new_Incremental_Backup_chain_within_ActiveIQ_Unified_Manager_versions_7.2_through_9.6[How to start a new Incremental Backup chain within Active IQ Unified Manager]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/OnCommand_Suite/How_to_start_a_new_Incremental_Backup_chain_within_ActiveIQ_Unified_Manager_versions_7.2_through_9.6[How to start a new Incremental Backup chain within Active IQ Unified Manager^]

@@ -23,6 +23,7 @@ You can verify that your script is executed correctly when an alert is generated
 . In the left navigation pane, click *Storage Management* > *Alert Setup*.
 . In the *Alert Setup* page, perform one of the following actions:
 +
+[options="header"]
 |===
 | To...| Do this...
 a|
@@ -47,8 +48,4 @@ a|
 +
 The script is executed with the "`-test`" argument, and a notification alert is sent to the email addresses that were specified when the alert was created.
 
-*Related information*
 
-xref:task-adding-scripts.adoc[Adding scripts]
-
-xref:task-editing-alerts.adoc[Editing alerts]

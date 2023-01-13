@@ -29,6 +29,4 @@ When you modify the role that is assigned to a user, the changes are applied whe
 . In the *Edit User* dialog box, edit the appropriate settings that are specified for the user.
 . Click *Save*.
 
-*Related information*
 
-xref:task-adding-users.adoc[Adding users]

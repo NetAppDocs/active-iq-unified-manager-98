@@ -19,16 +19,4 @@ You can associate a cluster to a predefined annotation by using the *Annotate* b
 
 See xref:reference-cluster-health-fields.adoc[Cluster health fields] for descriptions of all the fields on this page.
 
-*Related information*
 
-xref:task-exporting-storage-data-as-reports.adoc[Exporting storage data as reports]
-
-xref:task-scheduling-a-report.adoc[Scheduling a report]
-
-xref:task-rediscovering-clusters.adoc[Rediscovering clusters]
-
-xref:task-adding-clusters.adoc[Adding clusters]
-
-xref:task-removing-clusters.adoc[Removing clusters]
-
-xref:task-generating-a-hardware-inventory-report-for-contract-renewal.adoc[Generating a hardware inventory report for contract renewal]
