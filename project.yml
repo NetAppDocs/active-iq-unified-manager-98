@@ -3,7 +3,7 @@ settings:
   name: Active IQ Unified Manager 9.8
   internal:
     pdf-enabled: true
-    lipi-enabled: false
+    lipi-enabled: true
   prod:
     pdf-enabled: true
     harmony_enabled: true
