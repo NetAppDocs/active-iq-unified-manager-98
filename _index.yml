@@ -52,9 +52,9 @@ indexpage:
           url: /api-automation/concept-gateway-apis.html             
     - title: More resources
       links:
-        - title: [Unified Manager videos^]
+        - title: Unified Manager videos
           url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
-        - title: [Unified Manager blogs^] 
+        - title: Unified Manager blogs 
           url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish-date-mktg%20descending&layout=card&f:@facet-language-mktg=[English] 
-        - title: [Documentation for the latest version of Active IQ Unified Manager^]
+        - title: Documentation for the latest version of Active IQ Unified Manager
           url: https://docs.netapp.com/us-en/active-iq-unified-manager/index.html
