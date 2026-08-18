@@ -70,7 +70,3 @@ Saves the selected efficiency settings and applies them when you click *Apply* i
 * *Cancel*
 +
 Discards your selections and closes the Advanced Destination Settings dialog box.
-
-*Related information*
-
-https://www.netapp.com/pdf.html?item=/media/19753-tr-3966.pdf[NetApp Technical Report 3966: NetApp Data Compression and Deduplication Deployment and Implementation Guide (Clustered Data ONTAP)^]
